@@ -18,6 +18,16 @@ The goal is to classify user comments into **three sentiment classes**:
 
 The notebook walks through **data preprocessing, model design, training, evaluation, quantization, and inference**.
 
+## 2. Framework & Library Used
+
+1. Pytorch
+2. HuggingFace
+3. Numpy
+4. Pandas
+5. Scikit-learn
+6. Matplotlib
+7. Seaborn
+   
 ## 2. Problem Definition
 
 The task is **multi-class sentiment classification**:
@@ -68,4 +78,5 @@ The dataset consist of 241k Samples and 2 Main Features (Comment, Sentiment)
 | Validation Accuracy              | 0.8107  |
 | Test Accuracy (Before Quant.)    | 0.8072  |
 | Test Accuracy (After Quant.)     | 0.8070  |
+
 

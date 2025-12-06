@@ -8,7 +8,7 @@ The model is trained on a fully English dataset. Dataset Source : [Kaggle Datase
 
 Download Full Project Here : [Download Project Here](https://drive.google.com/drive/folders/1Wm0hbKBwKlCxS9ri4dcRCRG4JzCDFAS-?usp=sharing)
 
-## Goals & Main Objective
+## 1. Goals & Main Objective
 
 The goal is to classify user comments into **three sentiment classes**:
 
@@ -28,7 +28,7 @@ The notebook walks through **data preprocessing, model design, training, evaluat
 6. Matplotlib
 7. Seaborn
    
-## 2. Problem Definition
+## 3. Problem Definition
 
 The task is **multi-class sentiment classification**:
 
@@ -41,7 +41,7 @@ This is useful for:
 - Product review analysis.
 - Any NLP pipeline where **multilingual robustness** is needed.
 
-## 3. Dataset
+## 4. Dataset
 
 The dataset consist of 241k Samples and 2 Main Features (Comment, Sentiment)
 
@@ -58,7 +58,7 @@ The dataset consist of 241k Samples and 2 Main Features (Comment, Sentiment)
 | modi assure international community capability...                      | 2         |
 | long live chaukidaar modi nation proud scienti...                      | 2         |
 
-## Repository Structure
+## 5. Repository Structure
 
 
     ├── README.md                              
@@ -69,7 +69,7 @@ The dataset consist of 241k Samples and 2 Main Features (Comment, Sentiment)
     └── data/
         └── sentiment_data.csv                  
 
-## Model Performance
+## 6. Model Performance
 
 | Metric                           | Value   |
 |----------------------------------|---------|
@@ -78,5 +78,6 @@ The dataset consist of 241k Samples and 2 Main Features (Comment, Sentiment)
 | Validation Accuracy              | 0.8107  |
 | Test Accuracy (Before Quant.)    | 0.8072  |
 | Test Accuracy (After Quant.)     | 0.8070  |
+
 
 
